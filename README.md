@@ -21,5 +21,5 @@
 <p align="justify"> As funções de ativação tem o objetivo de tornar o sistema da rede não-linear, permitindo a aprendizagem dos principais aspectos dos dados. Temos vários tipos de funções de ativação, citando algumas como por exemplo temos sigmoid, tanh e softmax e Relu. No caso das CNN a função de ativação mais adequada é a Relu, devido ao fato apresentarem maior eficiência de computação.</p>
 
 ## Pooling
-
+O pooling tem como função reduzir a complexidade da camada de convolução anterior. De modo equivalente a convolução, escolhemos um quadrado que varre toda a saída da camada anterior. Então resumimos toda a informação naquela região em um único número. O processo de resumo de toda a informação é o maxpooling, no qual apenas o maior número da unidade é passado para a saída. O pooling além de reduzir a complexidade da aprendizagem da rede também evita o overfitting. O esquema do maxpooling pode ser resumido na figura abaixo.
 
