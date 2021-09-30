@@ -26,6 +26,9 @@ O pooling tem como função reduzir a complexidade da camada de convolução ant
 ![pooling](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/pooling.gif)
 
 ## Fully connected
-No final das camadas de convolução temos a rede neural 'convencional', onde sua entrada é a saída da última camada e sua siada são N neurônios que representam o número de classes a serem identificadas.
+No final das camadas de convolução temos uma rede neural 'convencional', onde sua entrada é a saída da última camada e sua siada são N neurônios que representam o número de classes a serem identificadas.
 
+## Criando o modelo CNN
+<p align="justify"> Como  dito antes, temos  como ojetivo construir um modelo de detecção de tumores cerebrais mediante a análise de imagens de resonância magnética usando uma CNN. Uma vez que treinemos nosso modelo temos que avaliar se seu desempenho na classificação é satisfatório.</p>
 
+<p align="justify"> Para alcançar esse objetivo  crie um notebook para mostrar o carregamento dos dados a até a avaliação da métrica de desepenho do modelo. A base de dados usada para alimentar o modelo foi conjunto de mais 3700 imagens de resonancia magnetica </p>
