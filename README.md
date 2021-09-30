@@ -6,11 +6,20 @@
 
 <p align="justify"> O reconhecimento de imagem é um clássico problema de classificação, e as Redes Neurais Convolucionais possuem um alta desepenho para esse problema. O conceito da arquitetura da CNN é análogo ao  que encontramos na natureza. Em 1962, Hubel e Wiesel fizeram um experimento mostrando que alguns neurônios são ativados juntos quando expostos a algumas linhas ou curvas, gerando assim o reconhecimento visual. As CNN funcionam do mesmo modo filtrando os principais detalhes de uma imagem passando adiante paras próximas camadas e ativando os neurônios destas camadas.</p>
 
-# Entradas dos dados
+## Entradas dos dados
 <p align="justify"> Vamos apresentar uma breve descrição da arquitetura da CNN. As entradas dos dados são matrizes tridimensionais, com altura e largura definidas pelas dimensões das imagens e a profundidade determinada geralmente pelos três canais RGB, como esquematizado na imagen abaixo.</p>
 
 ![max](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/rede2.png)
-# Convoluções
-As camadas de convoluções podem ser entendidas como pequenos filtros quadrados que varrem a imagens em busca dos detalhes mais importantes. O filtro têm dimensões ajustáveis que varrem a imagem em saltos (o chamado de stride). Este processo vai gerar um activation map. A profundidade da saída de uma convolução é igual a quantidade de filtros aplicados. Quanto mais profundas são as camadas das convoluções, mais detalhados são os traços capitados com o activation map.
+## Convoluções
+<p align="justify"> As camadas de convoluções podem ser entendidas como pequenos filtros quadrados que varrem a imagens em busca dos detalhes mais importantes. O filtro têm dimensões ajustáveis que varrem a imagem em saltos (o chamado de stride). Este processo vai gerar um activation map. A profundidade da saída de uma convolução é igual a quantidade de filtros aplicados. Quanto mais profundas são as camadas das convoluções, mais detalhados são os traços capitados com o activation map. Temos que nos preocupar com padding que diz respeito ao controle das dimensões do output da camada de convolução, veja a figura abaixo. Para maiores detalhes veja o artigo </p>
+
+[Understanding ConvNets (CNN)](https://medium.com/neuronio/understanding-convnets-cnn-712f2afe4dd3). 
 
 ![oi](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/convulu%C3%A7%C3%A3o.gif)
+
+## Função de ativação
+<p align="justify"> As funções de ativação tem o objetivo de tornar o sistema da rede não-linear, permitindo a aprendizagem dos principais aspectos dos dados. Temos vários tipos de funções de ativação, citando algumas como por exemplo temos sigmoid, tanh e softmax e Relu. No caso das CNN a função de ativação mais adequada é a Relu, devido ao fato apresentarem maior eficiência de computação.</p>
+
+## Pooling
+
+
