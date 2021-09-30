@@ -23,3 +23,9 @@
 ## Pooling
 O pooling tem como função reduzir a complexidade da camada de convolução anterior. De modo equivalente a convolução, escolhemos um quadrado que varre toda a saída da camada anterior. Então resumimos toda a informação naquela região em um único número. O processo de resumo de toda a informação é o maxpooling, no qual apenas o maior número da unidade é passado para a saída. O pooling além de reduzir a complexidade da aprendizagem da rede também evita o overfitting. O esquema do maxpooling pode ser resumido na figura abaixo.
 
+![pooling](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/pooling.gif)
+
+## Fully connected
+No final das camadas de convolução temos a rede neural 'convencional', onde sua entrada é a saída da última camada e sua siada são N neurônios que representam o número de classes a serem identificadas.
+
+
