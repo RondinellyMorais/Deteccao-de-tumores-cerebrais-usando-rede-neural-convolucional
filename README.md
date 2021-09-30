@@ -31,9 +31,32 @@ No final das camadas de convolução temos uma rede neural 'convencional', onde 
 ## Criando o modelo CNN
 <p align="justify"> Como  dito antes, temos  como objetivo construir um modelo de detecção de tumores cerebrais mediante a análise de imagens de ressonância magnética usando uma CNN. Uma vez que treinemos nosso modelo temos que avaliar se seu desempenho na classificação é satisfatório.</p>
 
- Para alcançar esse objetivo  crie um notebook para mostrar o carregamento dos dados a até a avaliação da métrica de desempenho do modelo. A base de dados usada para alimentar o modelo foi conjunto de mais 3700 imagens de ressonância magnética (MRI) e  um dataset .csv com múltiplas informações das imagens de MRI. Inclusive o dataset nos diz a classificação das imagens que indicam a presença de tumores (classe 1) e imagens que indicam ausência de tumores (classe 0). Uniremos as informações das classes com cada imagem. A base de dados pode ser encontrada no link [Extracted features for brain tumor](https://www.kaggle.com/jakeshbohaju/brain-tumor?select=Brain+Tumor). O código original do notebook é
+ Para alcançar esse objetivo  crie um notebook para mostrar o carregamento dos dados a até a avaliação da métrica de desempenho do modelo. A base de dados usada para alimentar o modelo foi conjunto de mais 3700 imagens de ressonância magnética (MRI) e  um dataset .csv com múltiplas informações das imagens de MRI. Inclusive o dataset nos diz a classificação das imagens que indicam a presença de tumores (classe 1) e imagens que indicam ausência de tumores (classe 0). Uniremos as informações das classes com cada imagem. A base de dados pode ser encontrada no link [Extracted features for brain tumor](https://www.kaggle.com/jakeshbohaju/brain-tumor?select=Brain+Tumor). O código original do notebook esta em [Detecção de tumores cerebrais usando rede neural convolucional](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/Brain_detector.ipynb)
 
 ![01](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/01.png)
 
 ![02](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/02.png)
 
+![03](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/03.png)
+
+![04](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/04.png)
+
+![05](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/05.png)
+
+![06](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/06.png)
+
+![07](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/07.png)
+
+![08](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/08.png)
+
+![09](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/09.png)
+
+![10](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/10.png)
+
+![11](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/11.png)
+
+![12](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/12.png)
+
+![13](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/13.png)
+
+![14](https://github.com/RondinellyMorais/Deteccao-de-tumores-cerebrais-usando-rede-neural-convolucional/blob/master/imagens/14.png)
